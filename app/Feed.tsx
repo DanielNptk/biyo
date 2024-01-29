@@ -35,7 +35,7 @@ export default function Feed({data}: any) {
 
     const productFeed = productData.map((product: Data) => {
         return (
-            <li key={product.id} className={`inline-block mb-6`}>
+            <li key={product.id} className={`inline mb-6 mr-3 w-1/3`}>
                 <Product
                     id={product.id}
                     title={product.title} 

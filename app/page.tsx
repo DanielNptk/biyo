@@ -17,7 +17,7 @@ export default async function Home() {
   const data: Data[] = await getProducts();
 
   return (
-    <body className={`mx-10 mt-3`}>
+    <body className={`mx-10 mt-3 font-['Marcellus']`}>
       <Nav/>
       <Filter/>
       <Feed data={data}/>
